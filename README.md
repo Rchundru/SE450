@@ -19,3 +19,16 @@ Finish packages command, main,data in HW3. (no need to touch package UI)
 
 Assignment6:
 Finish package UI (and Control.java)
+
+Assignment7:
+Refactor the code in UI to include:
+   * Factory pattern for the UI package
+   * Introduce Generic pair class and remove it from the UIform*/UIMenu* classes
+   * hash consing for Videos in Data
+   
+Assignment8:
+Refactor the code of the full project.  This includes at least:
+
+   * Refactoring UIMenu/UIForm to remove redundant and copied code. 
+   * Refactoring UIMenuBuilder/UIFormBuilder to remove redundant and copied code. 
+   * State pattern in Control (using Enums for the various Menus, Forms)
